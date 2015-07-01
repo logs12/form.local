@@ -109,6 +109,7 @@ class Valid
 
     /**
      * @return array - массив с данными о файле
+     * upd - доработать рекурсивный обход массива FILES вида $_FILES['file']['name'][0]
      */
     public function getFile()
     {
